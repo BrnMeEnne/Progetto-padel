@@ -79,7 +79,7 @@ header .hero .btn-lg:hover {
   font-size: 1.5rem;
 }
 
-.Our_Projects {
+.our_projects {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -89,41 +89,41 @@ header .hero .btn-lg:hover {
   background-position: center;
   height: 960px;
 }
-.Our_Projects .project1 {
+.our_projects .project1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   font-size: 4rem;
   font-family: "Montserrat", sans-serif;
-  color: #fff;
+  color: rgb(0, 108, 7);
   font-weight: 500;
 }
-.Our_Projects .progetti {
+.our_projects .progetti {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 3rem;
 }
-.Our_Projects .card-title {
+.our_projects .card-title {
   color: green;
   font-weight: 550;
 }
-.Our_Projects .card-img-top {
+.our_projects .card-img-top {
   max-height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.Our_Projects .card {
+.our_projects .card {
   background-color: rgba(255, 255, 255, 0.6);
   font-family: "Montserrat", sans-serif;
 }
-.Our_Projects .card .card-body {
+.our_projects .card .card-body {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.Our_Projects .card .card-body .btn-primary {
+.our_projects .card .card-body .btn-primary {
   margin-top: 50px;
   background: green;
   color: white;
@@ -134,7 +134,7 @@ header .hero .btn-lg:hover {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.Our_Projects .card .card-body .btn-primary:hover {
+.our_projects .card .card-body .btn-primary:hover {
   background: darkgreen;
   transform: scale(1.05);
   color: lightyellow;
@@ -254,14 +254,20 @@ footer {
 }
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding-top: 80px;
+}
+footer .social-icons .fa-facebook {
+  padding: 0 60px;
 }
 footer .contact__list {
   font-size: 1rem;
   text-align: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+}
+footer .contact__list .phone {
+  padding: 0 50px;
 }
 footer .contact__phone {
   padding: 25px 0px;
