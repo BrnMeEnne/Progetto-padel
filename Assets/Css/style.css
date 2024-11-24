@@ -96,12 +96,34 @@ header .hero .btn-lg:hover {
   font-size: 4rem;
   font-family: "Montserrat", sans-serif;
   color: #fff;
-  font-weight: 300;
-  padding-bottom: 300px;
+  font-weight: 500;
 }
 .Our_Projects .progetti {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 3rem;
+}
+.Our_Projects .card-title {
+  color: green;
+  font-weight: 550;
+}
+.Our_Projects .card-img-top {
+  max-height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.Our_Projects .card {
+  background-color: rgba(255, 255, 255, 0.6);
+  font-family: "Montserrat", sans-serif;
+}
+.Our_Projects .card .card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Our_Projects .card .card-body .btn-primary {
+  align-self: center;
+  margin-top: auto;
 }/*# sourceMappingURL=style.css.map */
