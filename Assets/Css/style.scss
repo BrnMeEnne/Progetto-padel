@@ -190,3 +190,30 @@ flex-direction: column;
     text-transform: uppercase;cursor: pointer;font-weight: bold; transition: 0.5s;}
 #modulo ul li .pulsante:hover {background: #000;border: solid 2px #123553; }
 
+footer {
+    margin: 90px;
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+
+.contact__list {
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__phone {
+    padding: 25px 0px;
+}
+
+
+    .copy  {
+        display: flex;
+        justify-content: center;
+        padding-top: 80px;
+    }
+}

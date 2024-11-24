@@ -247,4 +247,27 @@ header .hero .btn-lg:hover {
 #modulo ul li .pulsante:hover {
   background: #000;
   border: solid 2px #123553;
+}
+
+footer {
+  margin: 90px;
+}
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 80px;
+}
+footer .contact__list {
+  font-size: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+footer .contact__phone {
+  padding: 25px 0px;
+}
+footer .copy {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
 }/*# sourceMappingURL=style.css.map */
