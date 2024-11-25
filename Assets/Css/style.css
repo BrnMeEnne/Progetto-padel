@@ -3,7 +3,7 @@ header {
   flex-direction: column;
 }
 header img {
-  width: 200px;
+  width: 20%;
 }
 header .head_img {
   display: flex;
@@ -26,10 +26,9 @@ header .hero .hero1 {
   padding-top: 25px;
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
+  max-width: 100%;
   font-weight: 500;
   font-style: normal;
-  white-space: nowrap;
 }
 header .hero .hero2 {
   color: #fff;
@@ -53,6 +52,14 @@ header .hero .btn-lg:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
 .about {
   background: #fff;
   padding-top: 80px;
@@ -67,9 +74,9 @@ header .hero .btn-lg:hover {
 .about .abouth1 {
   color: green;
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 70px;
+  font-weight: 300;
   padding-bottom: 40px;
+  font-size: 3rem;
 }
 .about .aboutp {
   font-size: 1rem;
@@ -87,7 +94,7 @@ header .hero .btn-lg:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 960px;
+  height: 100%;
 }
 .our_projects .project1 {
   display: flex;
@@ -102,7 +109,8 @@ header .hero .btn-lg:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 3rem;
+  gap: 2rem;
+  max-height: 100%;
 }
 .our_projects .card-title {
   color: green;

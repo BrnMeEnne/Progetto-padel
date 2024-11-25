@@ -1,14 +1,16 @@
-@import 'responsive';
-
 header{
     display: flex;
 flex-direction: column;
 
     & img {
-    width: 50%;
+    width: 20%;
     }
 
-  
+    .head_img {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
     .hero {
     background-image: url(/Assets/Img/hands_green_heart.webp);
     background-size: cover;
@@ -25,10 +27,9 @@ flex-direction: column;
         padding-top: 25px;
         color: #fff;
         font-family: "Montserrat", sans-serif;
-        font-optical-sizing: auto;
+max-width: 100%;
         font-weight: 500;
         font-style: normal;
-        white-space: nowrap;
         }
 
     .hero2 {
@@ -59,6 +60,14 @@ flex-direction: column;
     }
 }
 
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+
 .about {
     background: #fff;
     padding-top: 80px;
@@ -73,9 +82,9 @@ flex-direction: column;
     .abouth1 {
         color: green;
         font-family: "Montserrat", sans-serif;
-        font-weight: 500;
-        font-size: 70px;
+        font-weight: 300;
         padding-bottom: 40px;
+        font-size: 3rem;
     }
 
     .aboutp {
@@ -96,7 +105,7 @@ flex-direction: column;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 960px;
+    height: 100%;
 
     .project1 {
         display: flex;
@@ -113,7 +122,8 @@ flex-direction: column;
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 3rem;
+        gap: 2rem;
+        max-height: 100%;
     }
 
     .card-title {
