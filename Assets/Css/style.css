@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header {
   display: flex;
   flex-direction: column;
@@ -21,14 +22,13 @@ header .hero {
   align-items: center;
 }
 header .hero .hero1 {
-  display: flex;
   font-size: 3rem;
   padding-top: 25px;
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  max-width: 100%;
   font-weight: 500;
   font-style: normal;
+  text-align: center;
 }
 header .hero .hero2 {
   color: #fff;
@@ -62,14 +62,11 @@ body {
 
 .about {
   background: #fff;
-  padding-top: 80px;
+  padding: 60px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-bottom: 80px;
 }
 .about .abouth1 {
   color: green;
@@ -94,21 +91,19 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding: 20px;
 }
 .our_projects .project1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   font-size: 3rem;
   font-family: "Montserrat", sans-serif;
   color: #fff;
-  font-weight: 500;
+  text-align: center;
 }
 .our_projects .progetti {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
 .our_projects .card-title {
   color: green;
@@ -121,9 +116,12 @@ body {
      object-fit: cover;
 }
 .our_projects .card {
+  width: 100%;
+  max-width: 300px;
   background-color: rgba(255, 255, 255, 0.6);
   font-family: "Montserrat", sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 450;
 }
 .our_projects .card .card-body {
   flex-grow: 1;
@@ -132,7 +130,7 @@ body {
   justify-content: space-between;
 }
 .our_projects .card .card-body .btn-primary {
-  margin-top: 50px;
+  margin-top: 20px;
   background: green;
   color: white;
   padding: 10px;
@@ -150,12 +148,14 @@ body {
 }
 
 .contacts {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 80px;
+  padding: 20px;
   color: green;
   font-family: "Montserrat", sans-serif;
+}
+.contacts h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: clamp(1.8rem, 5vw, 2.5rem);
 }
 
 .content {
@@ -164,6 +164,9 @@ body {
   box-sizing: border-box;
   margin: 0 auto;
   float: left;
+}
+.content h3 {
+  text-align: center;
 }
 
 #modulo {
@@ -258,30 +261,30 @@ body {
 }
 
 footer {
-  margin: 90px;
+  margin: 20px;
+  font-size: clamp(0.9rem, 3vw, 1rem); /* Adattabile */
+  text-align: center;
 }
 footer .social-icons {
   display: flex;
   justify-content: center;
-  padding-top: 80px;
+  margin-top: 50px;
+  gap: 10px;
 }
-footer .social-icons .fa-facebook {
-  padding: 0 60px;
-}
-footer .contact__list {
-  font-size: 1rem;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-footer .contact__list .phone {
-  padding: 0 50px;
-}
-footer .contact__phone {
-  padding: 25px 0px;
+footer .social-icons a {
+  font-size: 1.5rem;
 }
 footer .copy {
-  display: flex;
-  justify-content: center;
-  padding-top: 80px;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+/* Media Query per schermi molto piccoli */
+@media (max-width: 480px) {
+  .hero {
+    height: 400px; /* Riduce l'altezza */
+  }
+  .card {
+    max-width: 90%; /* Card più strette */
+  }
 }/*# sourceMappingURL=style.css.map */
