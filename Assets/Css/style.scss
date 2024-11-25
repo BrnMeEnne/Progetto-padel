@@ -1,16 +1,14 @@
+@import 'responsive';
+
 header{
     display: flex;
 flex-direction: column;
 
     & img {
-    width: 200px;
+    width: 50%;
     }
 
-    .head_img {
-        display: flex;
-        justify-content: center;
-        padding-bottom: 30px;
-    }
+  
     .hero {
     background-image: url(/Assets/Img/hands_green_heart.webp);
     background-size: cover;
